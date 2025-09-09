@@ -14,7 +14,10 @@ export const ItemCounter = ({ name , quantity}: Props) => {
         width: 150,
         marginTop: 20,
       }}>{name}</span>
-      <button>+1</button>
+      <button
+      onClick={()=>{
+        console.log('click');
+      }}>+1</button>
       <span>{quantity}</span>
       <button>-1</button>
     </section>
