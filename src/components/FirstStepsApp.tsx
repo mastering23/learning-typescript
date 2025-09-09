@@ -19,7 +19,9 @@ export function FirstStepsApp(){
     <>
      <h1>Hello wolrd</h1>
      <p>esto es parrafo</p>
-     <button>Click me </button>
+     <button> Click me </button>
+     
+     
      <MyAwesomeApp />
 
      {intemsIncart.map(({productName,quantity})=>(
