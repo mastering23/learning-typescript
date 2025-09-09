@@ -25,6 +25,7 @@ export const ItemCounter = ({ name, quantity }: Props) => {
       <button
         onClick={handleClick}>+1</button>
       <span>{quantity}</span>
+      
       <button>-1</button>
     </section>
 
