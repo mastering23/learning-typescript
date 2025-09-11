@@ -1,0 +1,98 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FirstStepsApp > Should match snapshot 1`] = `
+<div>
+  <h1>
+    Hello wolrd
+  </h1>
+  <p>
+    esto es parrafo
+  </p>
+  <button>
+     Click me 
+  </button>
+  <div>
+    <h1>
+      Fernando
+    </h1>
+    <h3>
+      Herrera
+    </h3>
+    <h2>
+      David
+    </h2>
+    <h2>
+      Bruno
+    </h2>
+    4
+    <p>
+      Chesses, Tomato, Salsa, Pinapple
+    </p>
+    <h2>
+      Activo
+    </h2>
+    <p
+      style="background-color: rgb(156, 21, 21); color: white; border-radius: 10px; padding: 20px;"
+    >
+      {"zipCode":"10040","country":"USA"}
+    </p>
+  </div>
+  <section
+    class="item-row"
+  >
+    <span
+      class="item-text"
+      style="color: black;"
+    >
+      PS 5
+    </span>
+    <button>
+      +1
+    </button>
+    <span>
+      20
+    </span>
+    <button>
+      -1
+    </button>
+  </section>
+  <section
+    class="item-row"
+  >
+    <span
+      class="item-text"
+      style="color: black;"
+    >
+      Xbox
+    </span>
+    <button>
+      +1
+    </button>
+    <span>
+      10
+    </span>
+    <button>
+      -1
+    </button>
+  </section>
+  <section
+    class="item-row"
+  >
+    <span
+      class="item-text"
+      style="color: black;"
+    >
+      Nintendo
+    </span>
+    <button>
+      +1
+    </button>
+    <span>
+      16
+    </span>
+    <button>
+      -1
+    </button>
+  </section>
+</div>
+`;
