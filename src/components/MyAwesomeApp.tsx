@@ -23,9 +23,9 @@ export const MyAwesomeApp = () => {
   }
 
   return (
-    <>
-      <h1>Creando un Nuevo Componente</h1>
-      <h2>Creating a new Component</h2>
+    <div>
+      <h1>Fernando</h1>
+      <h3>Herrera</h3>
 
       {/* Variables  */}
       <h2>{name1}</h2>
@@ -49,7 +49,7 @@ export const MyAwesomeApp = () => {
 
       </p>
 
-    </>
+    </div>
 
   );
 

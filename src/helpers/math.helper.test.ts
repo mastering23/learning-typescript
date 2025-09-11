@@ -83,3 +83,5 @@ test('should multiply one positive numbers with 0 value', () => {
 
 });
 });
+
+print('---end---');
