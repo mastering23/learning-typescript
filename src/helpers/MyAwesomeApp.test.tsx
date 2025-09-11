@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { MyAwesomeApp } from "./components/MyAwesomeApp";
+import { MyAwesomeApp } from "../components/MyAwesomeApp";
 import {render , screen} from "@testing-library/react";
 // import { print } from "./helpers/math.helper";
 
