@@ -19,4 +19,15 @@ expect(h3?.innerHTML).toContain('Herrera');
 
 });
 
+//Snapshots are useful for verifying the register status, comparing outputs, and checking the results of a test.>>
+
+test('Should match snapshot', ()=>{
+
+  const {container} = render (<MyAwesomeApp />);
+
+  expect(container).toMatchSnapshot();
+
+});
+
+
 });
